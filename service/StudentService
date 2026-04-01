@@ -1,0 +1,8 @@
+# class StudentService:
+# 	def save(self, student: Student) -> Student:
+# 		print("todo implement the student service save method")
+# 		return student
+
+# 	def get_by_id(self, id: int) -> Student:
+# 		print("todo implement the student service get_by_id method")
+# 		return Student(id=None, first_name="", last_name="", major="", email="", year=0)
