@@ -177,9 +177,25 @@ instead of printing it, save it in a file -->
 @app.get("/users")
 def get_users():
     return service.get_users()
-	
+
 Spring
 @GetMapping("/users")
 public List<User> getUsers() {
     return service.getUsers();
-} -->
+} 
+
+
+
+data_layer
+	student_dao.py
+
+
+def get_by_id int id ->Studet
+return Student(id,....)
+return datalayer.//later with data layer
+
+both presentation and service layers have validation and sanitation
+-api can interact with service layer
+-user can interact with presentation layer
+can be either or none (let sql give errors)
+-->
